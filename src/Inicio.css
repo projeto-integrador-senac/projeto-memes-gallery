@@ -1,0 +1,21 @@
+.posts{
+    color: rgb(255, 0, 0);
+    
+    
+}
+.posts button{
+
+    margin: 0px;
+    background: rgb(252, 34, 34);
+    padding: 10px;
+
+}
+.botao{
+    display: inline-block;
+}
+
+.body{
+    color: aliceblue;
+    background-color: black;
+    margin: 100px
+}

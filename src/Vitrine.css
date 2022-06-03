@@ -1,0 +1,17 @@
+.Vitrine{
+    background: #0855a1;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.Vitrine img{
+    width: 600px;
+  
+}
+
+.Vitrine p{
+    font-size: 30px;
+}

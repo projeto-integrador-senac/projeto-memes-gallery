@@ -1,0 +1,7 @@
+.Rodape{
+    background: #0855a1;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0px 0px 10px 250px;
+}

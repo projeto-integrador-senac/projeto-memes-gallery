@@ -1,0 +1,115 @@
+@media only screen and (min-device-width: 1024px) {
+	.PC{
+		background: #b721ff ;
+    display: flex;
+    justify-content: space-between;
+    
+	}
+
+
+	.PC a{
+		color: #540b75;
+		margin: 10px;
+		text-decoration: none;
+		margin-left: 5px;
+	}
+	
+	.menu{
+		display: none;
+	}
+	
+	}
+
+
+
+
+@media only screen and (max-device-width: 1024px){
+	
+.PC{
+	display: none;
+}
+.menu{
+    background: #b721ff ;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.menu a{
+    color: #540b75;
+    margin: 10px;
+    text-decoration: none;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #f9f9f9;
+    overflow-y: hidden;
+}
+#icone {
+	cursor: pointer;
+	padding: 5px;
+    position: absolute;
+	z-index: 1;
+	color: #540b75;
+}
+
+#check{
+	display: none;
+	background-color: #f00;
+}
+
+.barra{
+	background-image: linear-gradient(to top, #2899b3 -100%, #b721ff );
+	height: 350px;
+	width: 300px;
+	position: absolute;
+	left: -300px;
+	transition: all 0.1s linear;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.barra .link{
+	list-style: none;
+	background-color: #7a11aa;
+}
+
+nav{
+	width: 100%;
+	position: absolute;
+	top: 60px;
+}
+nav a{
+	text-decoration: none;
+}
+
+.link{
+	color: #f4f4f9;
+	font-family: 'Arial';
+	font-size: 12pt;
+	padding: 20px;
+	transition:  all 0.1s linear ;
+	opacity: 0;
+	margin-top: 200px;
+}
+.link:hover{
+	background-color: #500d6e;
+}
+
+#check:checked ~ .barra nav a .link{
+		opacity: 1;
+		margin-top: -25px;
+		
+}
+#check:checked ~ .barra{
+		transform: translate(300px);
+
+}
+
+}
+
+
